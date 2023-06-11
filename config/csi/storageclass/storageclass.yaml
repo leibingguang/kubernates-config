@@ -5,3 +5,5 @@ metadata:
 provisioner: fuseim.pri/ifs # or choose another name, must match deployment's env PROVISIONER_NAME'
 parameters:
   archiveOnDelete: "false"
+  allowVolumeExpansion: "true"
+  volumeBindingMode: "Immediate"
