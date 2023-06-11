@@ -31,9 +31,9 @@ spec:
             - name: NFS_SERVER
               value: 10.211.55.16
             - name: NFS_PATH
-              value: /work/nfs-storageclass-test
+              value: /work/nfs
       volumes:
         - name: nfs-client-root
           nfs:
             server: 10.211.55.16
-            path: /work/nfs-storageclass-test
+            path: /work/nfs
